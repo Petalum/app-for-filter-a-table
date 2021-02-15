@@ -1,0 +1,117 @@
+import { convertToJson } from '../mock/func/convertToJson'
+
+const students = [
+    {
+        "id": "1",
+        "name": "Мария",
+        "surname": "Иванова",
+        "patronymic": "Сергеевна",
+        "birthday": "2001-02-10",
+        "group": "1",
+        "faculty": "Строительство и архитектура",
+    },
+    {
+        "id": "2",
+        "name": "Виталий",
+        "surname": "Светлов",
+        "patronymic": "Борисович",
+        "birthday": "2002-12-11",
+        "group": "2",
+        "faculty": "Строительство и архитектура",
+    },
+    {
+        "id": "3",
+        "name": "Василий",
+        "surname": "Кузнецов",
+        "patronymic": "Владимирович",
+        "birthday": "2001-04-17",
+        "group": "1",
+        "faculty": "Строительство и архитектура",
+    },
+    {
+        "id": "4",
+        "name": "Надежда",
+        "surname": "Лисьева",
+        "patronymic": "Петровна",
+        "birthday": "2002-11-01",
+        "group": "2",
+        "faculty": "Строительство и архитектура",
+    },
+    {
+        "id": "5",
+        "name": "Карина",
+        "surname": "Круглова",
+        "patronymic": "Эдуардовна",
+        "birthday": "2003-11-07",
+        "group": "1",
+        "faculty": "Дизайн и реклама",
+    },
+    {
+        "id": "6",
+        "name": "Иван",
+        "surname": "Сомов",
+        "patronymic": "Петрович",
+        "birthday": "2003-08-09",
+        "group": "1",
+        "faculty": "Дизайн и реклама",
+    },
+    {
+        "id": "7",
+        "name": "Валерия",
+        "surname": "Круглова",
+        "patronymic": "Владимировна",
+        "birthday": "2003-03-22",
+        "group": "2",
+        "faculty": "Облачные вычисления",
+    },
+    {
+        "id": "8",
+        "name": "Екатерина",
+        "surname": "Иванова",
+        "patronymic": "Владимировна",
+        "birthday": "2002-08-13",
+        "group": "3",
+        "faculty": "Облачные вычисления",
+    },
+    {
+        "id": "9",
+        "name": "Виталий",
+        "surname": "Степанов",
+        "patronymic": "Игоревич",
+        "birthday": "2001-09-01",
+        "group": "1",
+        "faculty": "Облачные вычисления",
+
+    },
+    {
+        "id": "10",
+        "name": "Валерий",
+        "surname": "Степанов",
+        "patronymic": "Валентинович",
+        "birthday": "2004-01-10",
+        "group": "4",
+        "faculty": "Педагогика и психология",
+    },
+    {
+        "id": "11",
+        "name": "Анна",
+        "surname": "Борисова",
+        "patronymic": "Сергеевна",
+        "birthday": "2003-03-11",
+        "group": "4",
+        "faculty": "Педагогика и психология",
+    },
+    {
+        "id": "12",
+        "name": "Андрей",
+        "surname": "Химиков",
+        "patronymic": "Валентинович",
+        "birthday": "2003-01-22",
+        "group": "5",
+        "faculty": "Педагогика и психология",
+    }
+]
+
+const getListOfStudents = convertToJson(students);
+
+export default getListOfStudents;
